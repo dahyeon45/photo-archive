@@ -109,9 +109,9 @@
        			Photos
       			</a>
       			<div class="dropdown-menu">
-        			<a class="dropdown-item" href="#">Denmark</a>
-        			<a class="dropdown-item" href="#">Italy</a>
-        			<a class="dropdown-item" href="#">Iceland</a>
+        			<a class="dropdown-item" href="Denmark.html">Denmark</a>
+        			<a class="dropdown-item" href="Italy.html">Italy</a>
+        			<a class="dropdown-item" href="Iceland.html">Iceland</a>
       			</div>
     		  </li>
 		      <li class="nav-item">
@@ -156,15 +156,15 @@
 				<br><hr>
 				<div class="row">
 					<div class="col-12">
-						<form action="/action_page.php">
+						<form>
   							<label for="destinations" style="font-size:13px;">Choose a destination.</label>
   							<br>
   							<select name="destinations" id="destinations">
-    							<option value="CPH">Denmark</option>
+    							<option value="Denmark">Denmark</option>
     							<option value="Italy">Italy</option>
     							<option value="Iceland">Iceland</option>
   							</select> 
-  							<input type="submit" value="GO !">
+  							<button onclick="movepage()">GO !</button>
 						</form>
 					</div>
 				</div>
