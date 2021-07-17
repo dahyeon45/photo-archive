@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dahyeon's photo archive</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Fonts -->
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Prata&display=swap" rel="stylesheet">
+
+
+	<!-- CSS Files -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	
+
+	<!-- Scripts -->
+
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+
+</head>
+
+
+
+</head>
+
+<body>
+
+	<header>
+
+
+
+
+		<div class="container">
+			<h2>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br><br>
+			</h2>
+		</div>
+
+
+		<div class="container main-text"> 
+			<h1>dahyeon's<br>photo<br>archive.</h1>
+		</div>
+
+
+	</header>
+
+
+		
+		<div class="container main-img">
+		
+			<div id="main-sky">
+				<img src="../images/comp/sky_3.png" alt="sky" class="responsive">
+			</div>
+
+			<div id="main-airplane">
+				<img src="../images/comp/window_3.png" alt="sky" class="responsive">
+			</div>
+
+
+		</div>
+
+		<div class="container bottom-scroll blink">
+			<p class="disp"> scroll down to choose a destination</p>
+			<img src="../images/comp/arrow.png" id="arrow">
+		</div>
+
+
+		<div class="main-images">
+
+			<img src="../images/comp/cloud1.png" id="cloud1">
+			<img src="../images/comp/star1.png" id="star1">
+			<img src="../images/comp/star2.png" id="star2">
+			<img src="../images/comp/star3.png" id="star3">
+
+		</div>
+
+
+
+
+		<!-- nav bar-->
+
+		<nav class="navbar navbar-expand-md bg-none navbar-dark">
+		  <!-- Toggler/collapsibe Button -->
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar" >
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+
+		  <!-- Navbar links -->
+		  <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		    <ul class="navbar-nav">
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">Home&nbsp;</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="Denmark.html">Photos&nbsp;</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Etc.&nbsp;</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="#">Contact&nbsp;</a>
+		      </li>
+		    </ul>
+		  </div>
+		</nav>
+
+
+		<!-- nav bar end-->
+
+
+
+		<div class="container destination">
+			<div class="container boarding-pass">
+				<div class="row" id="row-1">
+					<div class="col-4"> Incheon </div>
+					<div class="col-3"> </div>
+					<div class="col-5" style="text-align:right">Not selected</div>		
+				</div>	
+				<div class="row">
+					<div class="col-4" id="ICN"> ICN </div>
+					<div class="col-4"><img src="../images/comp/airplane.png" style="width:40px;margin:0 auto;display:block"></div>
+					<div class="col-4" id="ICN" style="text-align:center;">???</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-4"><b>FLIGHT</b><br>KE1205</div>
+					<div class="col-5"><b>DEPARTURE</b><br>13:05</div>
+					<div class="col-3"><b>GATE</b><br>21</div>
+				</div>
+				<br>
+				<div class="row">
+					<div class="col-3"><b>NAME</b><br>???</div>
+					<div class="col-2"><b>SEAT</b><br>12A</div>
+					<div class="col-7"><b>CLASS</b><br>ECONOMY CLASS</div>
+				</div>
+				<br><hr>
+				<div class="row">
+					<div class="col-12">
+						<form action="/action_page.php">
+  							<label for="destinations" style="font-size:13px;">Choose a destination.</label>
+  							<br>
+  							<select name="destinations" id="destinations">
+    							<option value="CPH">Denmark</option>
+    							<option value="Italy">Italy</option>
+    							<option value="Iceland">Iceland</option>
+  							</select> 
+  							<input type="submit" value="GO !">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="container footer">
+			Copyright&copy; All rights reserved.
+			<br> Dahyeon J. 2021
+			<br><br><br>
+		</div>
+
+</body>
+
+</html>
