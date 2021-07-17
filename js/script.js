@@ -13,11 +13,12 @@ function myFunction() {
 }
 
 function movepage(){
+  event.PreventDefault();
   var destination = document.getElementById("destinations");
   var country_f = destination.value;
 
   var page_name = "https://dahyeon45.github.io/photo-archive/"+ country_f +".html";
-  window.location.href = page_name;
+  window.location.assign = "../Denmark.html";
 
   return false;
 }
