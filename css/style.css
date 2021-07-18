@@ -301,7 +301,8 @@ h1{
 	/*position: absolute;
 	top: 130px;*/
 	font-size: 24px;
-	margin: 0px 0px 50px 20px;
+	padding: 30px;
+	display: inline-block;
 
 	animation-name: topFadeOut;
   animation-duration: 4s;
