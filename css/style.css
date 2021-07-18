@@ -289,27 +289,44 @@ h1{
 	margin-bottom: 50px;
 }
 
+.footer-rl{
+	text-align: center;
+	font-size: 12px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
 
 .place-main{
 	/*position: absolute;
 	top: 130px;*/
-	text-align: center;
-	margin-bottom: 50px;
+	font-size: 24px;
+	margin: 0px 0px 50px 20px;
 
 	animation-name: topFadeOut;
   animation-duration: 4s;
 }
 
-
-.main-place-img{
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	top: 220px;
+#louisiana{
+	text-align: left;
 }
 
 .main-place-expl{
+	margin: 0px 0px 30px 0px;
+	padding: 15px;
+	color: #2dc780;
+	background-color: white;
+	display: inline-block;
+	border-radius: 8px;
+}
+
+.main-place-img{
+	margin: 20px 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+/*.main-place-expl{
 	position: relative;
 	overflow: hidden;
 	width: 90%;
@@ -318,108 +335,14 @@ h1{
 	box-shadow: 0px 0px 8px #2dc780;
 	margin: 30px auto;
 	color: black;
+}*/
+
+
+.main-place-expl{
+	max-width: 100%;
+	margin: 30px;
+	font-size: 16px;
 }
-
-/*body {
-	font-family: 'Poppins', sans-serif;
-}
-
-.navbar{
-	font-weight:bold;
-}
-
-#logo {
-	background: url('../images/logo_n.png') no-repeat center/contain;
-	width:90px;
-	height:40px;
-	position:absolute;
-	top:10px;
-	left:10px;
-}
-
-
-
-.nav-item {
-	font-size:10px;
-}
-
-
-.nav-item.active{
-	background-color:#beccf8;
-}
-
-
-.banner {
-	position:relative;
-	margin-top:140px;
-}
-
-#banner-img {
-	background: url('../images/banner_1.png') no-repeat center/contain;
-	height:250px;
-	width:100%;
-}
-
-#banner-text {
-	position:absolute;
-	top:0px;
-	left:0px;
-	width:100%;
-	text-align:center;
-}
-
-#text-1{
-	font-size:24px;
-	margin-bottom:0px;
-	color:#535354;
-	font-weight:bold;
-	text-decoration:none;
-}
-
-#text-1:hover{
-	color:#98a7d5;
-}
-
-#text-2{
-	font-size:12px;
-	color:#535354;
-}
-
-
-.responsive{
-	max-width:100%;
-	height: auto;
-}
-
-.photo-title{
-	font-size:24px;
-	color:#535354;
-	font-weight:bold;
-	text-decoration:none;
-	text-align:center;
-	margin-top:120px;
-	margin-bottom:100px;
-}
-
-.photo-expl {
-	margin-top:30px;
-	margin-bottom:50px;
-	font-size:15px;
-	text-align:center;
-
-}
-
-.photo-expl-s {
-	font-size:15px;
-	text-align:center;
-	font-family: 'Hi Melody', cursive;
-}
-
-.photo_sg {
-	border: 3px;
-	border-style:outset;
-}
-
 
 /* media queries */
 
