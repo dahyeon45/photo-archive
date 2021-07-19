@@ -10,7 +10,7 @@
 
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Prata&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400&family=Prata&family=Homemade+Apple&display=swap" rel="stylesheet">
 
 
 	<!-- CSS Files -->
@@ -29,13 +29,16 @@
 </head>
 
 
-<body>
+<body style="color:#d5c035;">
 
 	<header>
 
+		<div style="position:absolute;top:0px;opacity:90%;">
+		<img src="https://github.com/dahyeon45/photo-archive/blob/main/images/Denmark/Italy-background.jpg?raw=true" class="responsive">
+		</div>
 
-		<div class="container main-text-den"> 
-			<h1>Italy.</h1>
+		<div class="container main-text"> 
+			<h1 style="color:#d5c035;font-family: 'Homemade Apple', cursive;font-size:2.5rem;">Italy.</h1>
 		</div>
 
 
@@ -53,9 +56,16 @@
 		      <li class="nav-item">
 		        <a class="nav-link" href="index.html">Home&nbsp;</a>
 		      </li>
-		      <li class="nav-item">
-		        <a class="nav-link" href="Denmark.html">Photos&nbsp;</a>
-		      </li>
+		      <li class="nav-item dropdown">
+      			<a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+       			Photos
+      			</a>
+      			<div class="dropdown-menu">
+        			<a class="dropdown-item" href="Denmark.html">Denmark</a>
+        			<a class="dropdown-item" href="Italy.html">Italy</a>
+        			<a class="dropdown-item" href="Iceland.html">Iceland</a>
+      			</div>
+    		  </li>
 		      <li class="nav-item">
 		        <a class="nav-link" href="#">Etc.&nbsp;</a>
 		      </li>
@@ -73,10 +83,11 @@
 	</header>
 
 
-	<div class="container">
-		<div class="row">
-			<div class="col-6" id="row1"></div>
-			<div class="col-6" id="row1-txt"></div>
+	<div class="container footer-den">
+		Copyright&copy; All rights reserved.
+		<br> Dahyeon J. 2021
+		<br><br><br>
+	</div>
 
 
 
